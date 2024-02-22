@@ -47,6 +47,8 @@ h3 {
 img {
   height: auto;
   width: 310px;
+  display: block;
+  margin: 0 auto;
 }
 
 .links li {
