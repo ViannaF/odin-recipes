@@ -1,13 +1,33 @@
-* {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
   background-color: #f5fffa;
   color: #006400;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  margin: 0 auto;
+  width: 60%;
 }
 
 h1,
 h2,
-h3 {
+h3,
+.links a {
   text-align: center;
 }
 
@@ -27,4 +47,17 @@ h3 {
 img {
   height: auto;
   width: 310px;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.links a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  width: 100%;
+  color: #0000ff;
+  font-size: 22px;
 }
